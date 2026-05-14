@@ -1,0 +1,10 @@
+14:39:08 **** Incremental Build of configuration Debug for project Proj3_STM32_ADC_DataCapture ****
+make -j16 all 
+arm-none-eabi-size  Proj3_STM32_ADC_DataCapture.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24580	     92	   2300	  26972	   695c	Proj3_STM32_ADC_DataCapture.elf
+Finished building: default.size.stdout
+ 
+
+14:39:10 Build Finished. 0 errors, 0 warnings. (took 2s.105ms)
+
