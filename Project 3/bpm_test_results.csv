@@ -1,0 +1,7 @@
+test_number,target_bpm,expected_breaths,detected_breaths,error,error_percent,test_duration_s
+1,60,10,3,-7,-70,10
+2,50,10,7,-3,-30,12
+3,40,10,9,-1,-10,15
+4,30,10,10,0,0,20
+5,20,10,10,0,0,30
+6,10,10,10,0,0,60
