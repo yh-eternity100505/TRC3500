@@ -41,8 +41,8 @@ BUFFER_SIZE     = SAMPLE_RATE * WINDOW_SIZE_SEC
 SLIDE_SAMPLES   = int(SAMPLE_RATE * SLIDE_SEC)
 
 # Fusion weights (must sum to 1.0)
-W_RUBBER = 1.0
-W_THERM  = 0.0
+W_RUBBER = 0.6
+W_THERM  = 0.4
 
 # Threshold for breath detection on raw rubber ADC (units)
 BREATH_THRESHOLD = 200
